@@ -48,4 +48,28 @@ JSON (Structured storage format)
 AWS Glue & Athena (Data lake & querying)
 
 Use Case:
-This project is ideal for sports analysts, data scientists, and NBA enthusiasts looking to analyze player performance using a serverless, cloud-native solution. 🚀
+This project is ideal for sports analysts, data scientists, and NBA enthusiasts looking to analyze player performance using a serverless, cloud-native solution. 
+
+ 3.NFL Schedule API
+Project Overview
+This project automates the retrieval and presentation of NFL schedules using a Flask-based API. It fetches real-time game schedules from SerpAPI, processes the data, and serves it via a RESTful endpoint. The API is containerized using Docker, making deployment seamless across different environments.
+
+How It Works:
+Fetches NFL schedule data from SerpAPI.
+Extracts teams, venue, date, and time from the response.
+Formats the data into a structured JSON format.
+Serves the schedule via a Flask API at the /sports endpoint.
+Runs as a Docker container for easy deployment.
+
+Key Technologies:
+Flask → Provides a lightweight API framework.
+Requests → Handles API calls to SerpAPI.
+Python 3.9 → Core programming language.
+Docker → Enables containerized deployment.
+JSON → Standard format for structuring API responses.
+
+Use Case:
+This project is ideal for sports analysts, developers, and NFL enthusiasts looking for a real-time, API-based solution to access NFL schedules. It can be used for:
+Integrating NFL schedules into websites or mobile applications.
+Automating data retrieval for sports analytics.
+Enhancing fantasy football platforms with up-to-date game schedules.
