@@ -51,6 +51,7 @@ Use Case:
 This project is ideal for sports analysts, data scientists, and NBA enthusiasts looking to analyze player performance using a serverless, cloud-native solution. 
 
  3.NFL Schedule API
+ 
 Project Overview
 This project automates the retrieval and presentation of NFL schedules using a Flask-based API. It fetches real-time game schedules from SerpAPI, processes the data, and serves it via a RESTful endpoint. The API is containerized using Docker, making deployment seamless across different environments.
 
@@ -73,3 +74,12 @@ This project is ideal for sports analysts, developers, and NFL enthusiasts looki
 Integrating NFL schedules into websites or mobile applications.
 Automating data retrieval for sports analytics.
 Enhancing fantasy football platforms with up-to-date game schedules.
+
+1. Deploy a Static Website Using AWS S3 and CloudFront
+
+Skills: S3, CloudFront, IAM, Terraform
+
+Host a static website using Amazon S3 as storage.
+Use CloudFront CDN for faster delivery.
+Secure access with IAM roles and SSL/TLS certificates using AWS Certificate Manager (ACM).
+Terraform: Automate bucket creation, CDN configuration, and permissions.
