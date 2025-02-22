@@ -1,0 +1,13 @@
+.env
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+.terraform/
+
+#AWS CLI credentials (if configured locally)
+~/.aws/credentials
+~/.aws/config
+
+#Logs and temp files
+*.logs
+*.tmp
