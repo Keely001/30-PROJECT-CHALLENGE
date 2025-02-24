@@ -43,7 +43,7 @@ resource "aws_apigatewayv2_api" "file_upload_api" {
 
   # Configure CORS to allow requests from the S3 website hosting your client
   cors_configuration {
-    allow_origins  = ["https://serverless-file-upload-bucket-0612.s3.us-east-1.amazonaws.com"] # Allowed origin
+    allow_origins  = ["https://file-upload-website001.s3.us-east-1.amazonaws.com"] # Allowed origin
     allow_methods  = ["POST", "OPTIONS"]   # Allowed HTTP methods
     allow_headers  = ["Content-Type", "Authorization"]  # Allowed headers
     expose_headers = ["x-amzn-RequestId", "x-amzn-ErrorType"]  # Exposed headers

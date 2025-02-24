@@ -60,7 +60,7 @@ def lambda_handler(event, context):
         return {
             'statusCode': 200,
             'headers': {
-                'Access-Control-Allow-Origin': 'https://serverless-file-upload-bucket-0612.s3.us-east-1.amazonaws.com',
+                'Access-Control-Allow-Origin': 'https://file-upload-website001.s3.us-east-1.amazonaws.com',
                 'Access-Control-Allow-Methods': 'POST, OPTIONS',
                 'Access-Control-Allow-Headers': 'Content-Type, Authorization'
             },
